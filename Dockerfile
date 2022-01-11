@@ -1,5 +1,4 @@
 FROM node:17-alpine as builder
-
 WORKDIR /workspace
 RUN yarn build
 
