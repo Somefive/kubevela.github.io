@@ -1,7 +1,7 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   title: 'KubeVela',
-  tagline: 'Make shipping applications more enjoyable~',
+  tagline: 'Make shipping applications more enjoyable.',
   url: 'https://kubevela.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -22,11 +22,15 @@ module.exports = {
     },
   },
   themeConfig: {
-    announcementBar: {
-      id: 'start',
-      content:
-        '⭐️ If you like KubeVela, give it a star on <a target="_blank" rel="noopener noreferrer" href="https://github.com/oam-dev/kubevela">GitHub</a>! ⭐️',
+    colorMode: {
+      defaultMode: 'dark',
+      respectPrefersColorScheme: false,
     },
+    // announcementBar: {
+    //   id: 'start',
+    //   content:
+    //     '⭐️ If you like KubeVela, give it a star on <a target="_blank" rel="noopener noreferrer" href="https://github.com/oam-dev/kubevela">GitHub</a>! ⭐️',
+    // },
     algolia: {
       apiKey: 'f19c90b8ffe16ed118dae930cd070507',
       indexName: 'kubevela',
@@ -157,7 +161,7 @@ module.exports = {
             'https://github.com/oam-dev/kubevela.io/tree/main/',
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve('./src/css/custom-aliyun.css'),
         },
       },
     ],
