@@ -1,7 +1,7 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   title: 'KubeVela',
-  tagline: 'Make shipping applications more enjoyable.',
+  tagline: 'Make shipping applications more enjoyable~',
   url: 'https://kubevela.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
