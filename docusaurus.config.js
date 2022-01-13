@@ -22,11 +22,11 @@ module.exports = {
     },
   },
   themeConfig: {
-    announcementBar: {
-      id: 'start',
-      content:
-        '⭐️ If you like KubeVela, give it a star on <a target="_blank" rel="noopener noreferrer" href="https://github.com/oam-dev/kubevela">GitHub</a>! ⭐️',
-    },
+    // announcementBar: {
+    //   id: 'start',
+    //   content:
+    //     '⭐️ If you like KubeVela, give it a star on <a target="_blank" rel="noopener noreferrer" href="https://github.com/oam-dev/kubevela">GitHub</a>! ⭐️',
+    // },
     algolia: {
       apiKey: 'f19c90b8ffe16ed118dae930cd070507',
       indexName: 'kubevela',
@@ -157,7 +157,7 @@ module.exports = {
             'https://github.com/oam-dev/kubevela.io/tree/main/',
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve('./src/css/custom-aliyun.css'),
         },
       },
     ],
